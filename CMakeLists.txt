@@ -12,4 +12,9 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(cacheforge-server
     src/main.cpp
+    src/CacheEngine.cpp
+)
+
+target_include_directories(cacheforge-server PRIVATE
+    ${PROJECT_SOURCE_DIR}/include
 )
