@@ -1,4 +1,7 @@
-
+**Clone**
+- git clone ___
+- cd CacheForge
+  
 **build project**
 - cmake -S . -B build
 - cmake --build build
