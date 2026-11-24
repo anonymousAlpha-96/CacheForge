@@ -1,3 +1,14 @@
+
+/*##########################################################################################################
+#copyright (c) 2026 reserved
+#Author: Ankit
+#Date: 2026/24/11
+#Description: CacheEngine.h for CacheForge project
+##########################################################################################################*/
+
+//=========================================================================================================
+// 21-Nov-26 : Task 01 : initial commits 
+//=========================================================================================================
 #pragma once
 
 #include <iostream>
@@ -8,8 +19,6 @@
 class CacheEngine
 {
     public:
-    // CacheEngine() = default;
-    // ~CacheEngine() = default;
 
     void set(const std::string& key, const std::string& value);
     std::optional<std::string> get(const std::string& key) const;    
